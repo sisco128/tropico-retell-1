@@ -1,0 +1,20 @@
+{
+  "name": "my-retell-service",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Minimal Fastify + Retell AI server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^10.0.2",
+    "@fastify/formbody": "^8.0.1",
+    "dotenv": "^16.4.7",
+    "fastify": "^5.2.0",
+    "retell-sdk": "^4.13.0"
+  }
+}
